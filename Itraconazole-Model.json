@@ -3097,6 +3097,19 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -3146,6 +3159,57 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Event",
+              "EventKey": "Event2",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -3159,14 +3223,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 29.0,
+              "Value": 14.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
             },
             {
               "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
+              "Value": 24.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -3201,6 +3265,96 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Event",
+              "EventKey": "Event2",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 408.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0,
+              "ValueOrigin": {}
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {}
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -3230,63 +3384,37 @@
     },
     {
       "Name": "Barone 1998a Itra 200 mg QD days 0-14",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "day(s)",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 15.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 337.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "Groll 2002 2.5mg_kg_PO_MD bid",
@@ -3418,6 +3546,19 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -3466,6 +3607,19 @@
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
                   "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
                   "ValueOrigin": {}
                 }
               ]
@@ -3531,6 +3685,57 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Event",
+              "EventKey": "Event2",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -3542,14 +3747,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 2.0,
+              "Value": 1.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
             },
             {
               "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
+              "Value": 0.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -3584,28 +3789,79 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 200.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Event",
+              "EventKey": "Event2",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 3.5,
-              "Unit": "day(s)",
+              "Value": 84.0,
+              "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 24.0,
+              "Value": 12.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
             },
             {
               "Name": "TimeBetweenRepetitions",
-              "Value": 0.5,
-              "Unit": "day(s)",
+              "Value": 24.0,
+              "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
@@ -3643,6 +3899,19 @@
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
                   "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
                   "ValueOrigin": {}
                 }
               ]
@@ -3692,6 +3961,19 @@
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
                   "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
                   "ValueOrigin": {}
                 }
               ]
@@ -3920,68 +4202,42 @@
     },
     {
       "Name": "Olkkola 1994 Itraconazole 200 mg QD",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 4.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 73.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO SD 100 mg",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -4007,6 +4263,7 @@
       "Name": "PO SD 200 mg",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -4065,6 +4322,7 @@
       "Name": "vanPeer 1989 100 mg MD QD",
       "ApplicationType": "Oral",
       "DosingInterval": "DI_24",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -4096,63 +4354,36 @@
     },
     {
       "Name": "PO MD 200 mg",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 1.37,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 5.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 97.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 1.37,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "PO MD 100 mg",
@@ -4710,6 +4941,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -4747,146 +4984,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 15.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -5192,6 +5289,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -5229,156 +5332,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 1.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 2.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -5856,6 +5809,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -5893,16 +5852,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
         }
       ],
       "HasResults": true,
@@ -6285,6 +6234,16 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              },
+              {
+                "Name": "Standard Meal",
+                "Key": "Event2"
+              }
             ]
           }
         },
@@ -6322,326 +6281,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 15.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 16.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 17.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 18.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 3.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 4.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 5.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 6.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 7.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 8.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 9.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 10.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 11.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 12.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 13.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 14.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 15.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 16.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 17.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -7056,6 +6695,16 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              },
+              {
+                "Name": "Standard Meal",
+                "Key": "Event2"
+              }
             ]
           }
         },
@@ -7093,266 +6742,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 15.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 0.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 3.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 4.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 5.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 6.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 7.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 8.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 9.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 10.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 11.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 12.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 13.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 14.5,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -8568,6 +7957,12 @@
                 "Name": "Solution",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -8605,16 +8000,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
         }
       ],
       "HasResults": true,
@@ -9316,6 +8701,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -9353,146 +8744,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 15.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -9715,6 +8966,12 @@
                 "Name": "Solution",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -9752,16 +9009,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
         }
       ],
       "HasResults": true,
@@ -10069,6 +9316,12 @@
                 "Name": "Solution",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -10106,156 +9359,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 1.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 2.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 5.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 7.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 8.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 9.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 10.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 11.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 13.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 14.0,
-            "Unit": "day(s)",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
         }
       ],
       "HasResults": true,
@@ -12284,6 +11387,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High Fat Breakfast",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -12321,16 +11430,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
         }
       ],
       "HasResults": true,
@@ -12577,6 +11676,12 @@
                 "Name": "Capsule fed",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Standard Meal",
+                "Key": "Event"
+              }
             ]
           }
         },
@@ -12614,16 +11719,6 @@
               "SystemicProcessType": "GFR"
             }
           ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Standard Meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
         }
       ],
       "HasResults": true,
